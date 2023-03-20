@@ -1,0 +1,49 @@
+/* Home page */
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 20px;
+}
+h3{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+  color: rgb(5, 2, 44);
+}
+.products {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+}
+.product {
+  width: 300px;
+  border: 2px solid rgb(212, 212, 212);
+  margin: 10px;
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+}
+
+.added {
+  color: white;
+  background-color: rgb(228, 228, 228);
+}
+
+/* Cart page */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+thead {
+  background-color: antiquewhite;
+}
+
+td {
+  padding: 5px;
+}
+
+tr:nth-child(even) {
+  background-color: azure;
+}
